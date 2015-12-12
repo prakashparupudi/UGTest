@@ -38,8 +38,8 @@
 *-----------------------------------------------------------------------------
     CALL Table.defineId("REPORT.ID", T24_String) ;* Define Table id
 *-----------------------------------------------------------------------------
-	CALL Table.addFieldDefinition('REPORT.TYPE', 35, "":FM:"FIXED_VARAIBLE", "") ;* Add a new field
-	CALL Table.addFieldDefinition(fieldName, fieldLength, fieldType, neighbour) ;* Add a new field
+	CALL Table.addFieldDefinition('REPORT.TYPE', 35, '':FM:'FIXED_VARAIBLE', '') ;* Add a new field
+	CALL Table.addFieldDefinition('AUTO.WRAP', '3', '':FM:'YES_NO', '') ;* Add a new field
 *	CALL Table.addFieldDefinition(fieldName, fieldLength, fieldType, neighbour) ;* Add a new field
 *	CALL Table.addFieldDefinition(fieldName, fieldLength, fieldType, neighbour) ;* Add a new field
 *	CALL Table.addFieldDefinition(fieldName, fieldLength, fieldType, neighbour) ;* Add a new field
